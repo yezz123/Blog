@@ -21,6 +21,10 @@ export default function Footer() {
           <div>{` • `}</div>
           <div>{`© ${new Date().getFullYear()}`}</div>
           <div>{` • `}</div>
+          <Link href="https://vercel.com/">
+            <div> Deployed on Vercel</div>
+          </Link>
+          <div>{` • `}</div>
           <Link href="https://github.com/timlrx/tailwind-nextjs-starter-blog">
             <div>Theme by timlrx</div>
           </Link>
