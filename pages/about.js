@@ -29,8 +29,8 @@ export default function About() {
             <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">
               {siteMetadata.author}
             </h3>
-            <div className="text-gray-500 dark:text-gray-400">Professor of Atmospheric Science</div>
-            <div className="text-gray-500 dark:text-gray-400">Stanford University</div>
+            <div className="text-gray-500 dark:text-gray-400">Backend Developer</div>
+            <div className="text-gray-500 dark:text-gray-400">OSS Developer</div>
             <div className="flex pt-6 space-x-3">
               <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} />
               <SocialIcon kind="github" href={siteMetadata.github} />
@@ -41,20 +41,23 @@ export default function About() {
             </div>
           </div>
           <div className="pt-8 pb-8 prose dark:prose-dark max-w-none xl:col-span-2">
+            <p>It's my pleasure to introduce my self, My name is Yasser Tahiri.</p>
             <p>
-              Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His
-              research interests includes complexity modelling of tailwinds, headwinds and
-              crosswinds.
+              I am an experienced Backend developer | Penetration Tester. I am mostly self-taught,
+              and I am very passionate about new technologies. My strongest skills lie within
+              Python/JavaScript, both backends.
             </p>
             <p>
-              He leads the clean energy group which develops 3D air pollution-climate models, writes
-              differential equation solvers, and manufactures titanium plated air ballons. In his
-              free time he bakes raspberry pi.
+              I can learn quickly anything thrown at me, I am flexible & Comfortable with new
+              technologies and I can work with them faster than Speedy Gonzales.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique
-              placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem
-              nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+              Besides technology, I am more passionate about new Ideas and new ways of Thinking.
+            </p>
+            <p>
+              Relate to My Passion, I like watching and reading all the things that relate to
+              Ancient Greece, As examples the Dark Ages of the 12th–9th centuries also the Ancient
+              Greek philosophy, Socrates, Aristotle my greatest philosopher of all the time.
             </p>
           </div>
         </div>
