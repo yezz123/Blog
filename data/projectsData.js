@@ -24,6 +24,18 @@ const projectsData = [
     imgSrc: '/static/images/project/03.jpg',
     href: 'https://github.com/GDGSNF/PXXTF',
   },
+  {
+    title: 'Phisher',
+    description: ` Tool designed for performing various social engineering attacks. For phishing, SET allows for sending phishing Website to get the Number/Email/username & password, as well as some more advanced options, such as +10 Templates with new updates for 2021 & fast connection with Ngrok Application.`,
+    imgSrc: '/static/images/project/06.gif',
+    href: 'https://github.com/yezz123/Phisher',
+  },
+  {
+    title: 'Hephaestus',
+    description: `Restful Api developed with Flask using Prometheus and Grafana for monitoring and containerization with Docker 🚀`,
+    imgSrc: '/static/images/project/05.png',
+    href: 'https://github.com/yezz123/Hephaestus',
+  },
 ]
 
 export default projectsData
