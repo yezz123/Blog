@@ -15,7 +15,7 @@ export default function Footer() {
           <SocialIcon kind="twitter" href={siteMetadata.twitter} size="6" />
         </div>
         <div className="flex mb-2 space-x-2 text-sm text-gray-500 dark:text-gray-400">
-          <Link href="https://github.com/yezz123">
+          <Link href="https://yezz.me/">
             <div>{siteMetadata.author}</div>
           </Link>
           <div>{` • `}</div>
