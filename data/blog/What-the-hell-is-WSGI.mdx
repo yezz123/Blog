@@ -1,7 +1,7 @@
 ---
 title: 'What the Hell is WSGI Benchmark?'
 date: '2021-07-11'
-lastmod: '2021-07-11'
+lastmod: '2021-07-12'
 tags: ['WSGI', 'Python', 'Benchmark']
 draft: false
 summary: 'WSGI is the Web Server Gateway Interface. It is a specification that describes how a web server communicates with web applications, and how web applications can be chained together to process one request.'
@@ -18,7 +18,7 @@ images: ['/static/images/blog/08/02.jpg']
 
 # The Benchmark
 
-- To make the test as clean as possible, we created a [Docker](https://github.com/yezz123/Benchmark/blob/main/Dockerfile) container to isolate the tested server from the rest of the system. In addition to sandboxing the WSGI server, this ensured that every run started with a clean slate.
+- To make the test as clean as possible, we created a [Docker](https://gitlab.com/yezz123/benchmark/-/blob/master/Dockerfile) container to isolate the tested server from the rest of the system. In addition to sandboxing the WSGI server, this ensured that every run started with a clean slate.
 
 ```dockerfile
 FROM python:3.8
@@ -28,7 +28,7 @@ RUN pip install -r /app/requirements.txt
 RUN pip install /app
 ```
 
-- The [app](https://github.com/yezz123/Benchmark/blob/main/app.py) content:
+- The [app](https://gitlab.com/yezz123/benchmark/-/blob/master/app.py) content:
 
 ```py
 def application(environment, start_response):
@@ -113,7 +113,7 @@ pip install -r requirements.txt
 
 ### References
 
-- https://github.com/yezz123/Benchmark
+- https://gitlab.com/yezz123/benchmark
 
 - https://www.python.org/dev/peps/pep-3333/
 
