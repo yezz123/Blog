@@ -542,6 +542,18 @@ def index():
 - With this we can return a simple `index` with 2 buttons can redirect us to visualize and interact with the API’s resources without having any of the implementation logic in place.
 - Read more Here about [SWAGGER UI](https://swagger.io/tools/swagger-ui/) or [Redoc](https://redocly.github.io/redoc/).
 
+### Running the Application
+
+- To run the `Main.py` we need to use [uvicorn](https://www.uvicorn.org/) a lightning-fast ASGI server implementation, using uvloop and httptools.
+
+```shell
+# Running the application using uvicorn
+$ uvicorn main:app
+
+## To run the Application under a reload enviromment use -- reload
+$ uvicorn main:app --reload
+```
+
 - Voila! Now the API should be Secure and work in a high level ❤
 - Try Now to play and interact with the enviromment to get more knowledges about APIs and also FastAPI.
 
