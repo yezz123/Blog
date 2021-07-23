@@ -1,7 +1,7 @@
 ---
 title: 'Build and Secure an API in Python with FastAPI'
 date: '2021-05-31'
-lastmod: '2021-07-19'
+lastmod: '2021-07-23'
 tags: ['API', 'Python', 'FastAPI']
 draft: false
 summary: 'As Python grows in popularity, the variety of high-quality frameworks available to developers has blossomed. In addition to steadfast options like Django and Flask, there are many new options including FastAPI.'
@@ -406,7 +406,7 @@ def login(request: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(
 
 > about `from schema.hash import Hash` we gonna describe it on the Security Side.
 
-- Now we Create all our routes we need to Secure them that why i use `python-multipart` to implement and use `OAuth2PasswordBearer` for Authentication.
+- Now we Create all our routes we need to Secure them that why i use `fastapi.security` to implement and use `OAuth2PasswordBearer` for Authentication.
 
 ### Security :
 
@@ -474,7 +474,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES = <estimate Time "int">
 ```
 
 - We didn't finish yet, we need now to write a `oa2.py` is the OAuth 2.0 an industry-standard protocol for authorization.
-- This file is relate to our `Token` cause when we `get_current_user` we eed to verify the `token` after login when we use `oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")`.
+- This file is relate to our `Token` cause when we `get_current_user` we need to verify the `token` after login when we use `oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")`.
 - `oa2.py` :
 
 ```py
