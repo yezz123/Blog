@@ -3,7 +3,7 @@
   "short_name": "",
   "icons": [
     {
-      "src": "/wave.png",
+      "src": "/favicon.png",
       "sizes": "96x96",
       "type": "image/png"
     }

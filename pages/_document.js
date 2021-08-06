@@ -4,9 +4,9 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="wave" sizes="76x76" href="/static/favicons/wave.png" />
-          <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/wave.png" />
-          <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/wave.png" />
+          <link rel="wave" sizes="76x76" href="/static/favicons/favicon.png" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon.png" />
           <link rel="manifest" href="/static/favicons/site.webmanifest" />
           <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#5bbad5" />
           <meta name="msapplication-TileColor" content="#000000" />
