@@ -49,7 +49,7 @@
     "globby": "11.0.3",
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
-    "inquirer": "^8.1.4",
+    "inquirer": "^8.1.5",
     "next-remote-watch": "^1.0.0",
     "prettier": "2.2.1",
     "rehype": "12.0.0",
