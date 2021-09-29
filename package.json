@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
-    "@tailwindcss/forms": "^0.3.2",
+    "@tailwindcss/forms": "^0.3.4",
     "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.3.6",
     "gray-matter": "^4.0.2",
