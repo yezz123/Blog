@@ -16,20 +16,20 @@ From the official docs, building web applications with FastAPI reduce about 40 p
 
 Before we get started, let’s confirm that we have Python 3.7+ installed by running the following command on our terminal:
 
-```sh
+```shell
 python --version
 ```
 
-__Note:__ If you don’t have it installed, get it [here](https://www.python.org/downloads/).
+**Note:** If you don’t have it installed, get it [here](https://www.python.org/downloads/).
 
 - To build this project we will need the following Python packages:
 
-    - [FastAPI](https://fastapi.tiangolo.com/) - A fast, modern, and flexible framework for building web APIs with Python.
-    - [Ariadne](https://ariadnegraphql.org/) - A Python library for implementing GraphQL servers using schema-first approach.
+  - [FastAPI](https://fastapi.tiangolo.com/) - A fast, modern, and flexible framework for building web APIs with Python.
+  - [Ariadne](https://ariadnegraphql.org/) - A Python library for implementing GraphQL servers using schema-first approach.
 
 Let’s go ahead and install these packages in our virtual environment:
 
-```sh
+```shell
 fastapi[uvicorn]
 ariadne
 ```
@@ -42,8 +42,8 @@ ASGI is an emerging standard for building asynchronous services in Python that s
 
 - ASGI has two components:
 
-    - Protocol Server: Handles low level details of sockets, translating them to connections and relaying them to the application
-    - Application: A callable that is responsible for handling incoming requests. There are several ASGI frameworks that simplify building applications.
+  - Protocol Server: Handles low level details of sockets, translating them to connections and relaying them to the application
+  - Application: A callable that is responsible for handling incoming requests. There are several ASGI frameworks that simplify building applications.
 
 As an application developer, you might find that you will be mostly working at the application and framework levels.
 
@@ -51,7 +51,7 @@ Examples of ASGI servers include Uvicorn, Daphne and Hypercorn. Examples of ASGI
 
 Ariadne provides a GraphQL class that implements an ASGI application so we will not need an ASGI framework. We will use the uvicorn server to run our application.
 
-__Note:__ Understand the difference between ASGI and WSGI [Blog by Raoof Naushad](https://medium.com/analytics-vidhya/difference-between-wsgi-and-asgi-807158ed1d4c).
+**Note:** Understand the difference between ASGI and WSGI [Blog by Raoof Naushad](https://medium.com/analytics-vidhya/difference-between-wsgi-and-asgi-807158ed1d4c).
 
 ### Async in Python using asyncio
 
@@ -112,7 +112,7 @@ type TokenResult {
 }
 ```
 
--  After Define the schema, lets add the Query, Mutation, Subscription and Type definitions.
+- After Define the schema, lets add the Query, Mutation, Subscription and Type definitions.
 
 ```js
 schema {
@@ -163,7 +163,7 @@ We read the schema defined in the `schema.graphql` file and added a simple query
 
 - Start the server by running:
 
-```sh
+```shell
 uvicorn app:app --reload
 ```
 
@@ -366,7 +366,7 @@ async def review_blog_resolver(review_blog, info: GraphQLResolveInfo, token: str
     return {"id": review_blog}
 ```
 
-__Note:__ create a dynamic Source Review for Blog, by using RabbitMQ.
+**Note:** create a dynamic Source Review for Blog, by using RabbitMQ.
 
 > Rabbit MQ is a messaging broker that allows you to publish and subscribe to messages.
 
@@ -386,7 +386,6 @@ async def review_blog_source(obj, info: GraphQLResolveInfo, token: str):
         else:
             return
 ```
-
 
 ![Winner](https://i.gifer.com/RgnL.gif)
 
