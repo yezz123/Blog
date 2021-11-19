@@ -56,7 +56,7 @@
     "remark-frontmatter": "4.0.1",
     "remark-parse": "10.0.0",
     "remark-stringify": "10.0.1",
-    "unified": "10.1.0",
+    "unified": "10.1.1",
     "unist-util-visit": "2.0.3"
   },
   "lint-staged": {
