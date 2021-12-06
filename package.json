@@ -51,7 +51,7 @@
     "lint-staged": "^12.1.2",
     "inquirer": "^8.2.0",
     "next-remote-watch": "^1.0.0",
-    "prettier": "2.2.1",
+    "prettier": "2.5.1",
     "rehype": "12.0.0",
     "remark-frontmatter": "4.0.1",
     "unified": "10.1.1",
